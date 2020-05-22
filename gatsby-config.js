@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['gatsby-theme-material-ui', `gatsby-plugin-material-ui`],
+  plugins: ['gatsby-theme-material-ui'],
   siteMetadata: {
     title: 'My page',
   },

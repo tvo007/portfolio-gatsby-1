@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import TestMenu from '../components/TopMenu'
+import React from 'react';
+import PropTypes from 'prop-types';
+import TestMenu from '../components/TopMenu';
 
-const Layout = ({ children }) => (
+const Layout = ({children}) => (
   <div>
-    <TestMenu /> 
-      {children}
+    <TestMenu />
+    {children}
   </div>
-)
+);
 
 Layout.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.object,
+};
 
-export default Layout
+export default Layout;
