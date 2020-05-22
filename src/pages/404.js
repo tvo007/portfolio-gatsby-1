@@ -15,7 +15,7 @@ export default function Index () {
           <Typography variant="h4" component="h1" gutterBottom>
             404{' '}
           </Typography>
-          <Link to="/index" color="secondary">
+          <Link to="/" color="secondary">
             Go back to index.
           </Link>
           <Copyright />
